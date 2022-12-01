@@ -1,0 +1,8 @@
+DWORD fccYUY2 = '2YUY';  // Declares the FOURCC 'YUY2'.
+
+[![Build test](https://github.com/systemd/systemd/actions/workflows/build_test.yml/badge.svg?branch=main&event=deployment)](https://github.com/systemd/systemd/actions/workflows/build_test.yml)[![Build test](https://github.com/systemd/systemd/actions/workflows/build_test.yml/badge.svg?branch=main&event=deployment)](https://github.com/systemd/systemd/actions/workflows/build_test.yml)typedef struct tagRGBQUAD {
+  BYTE rgbBlue;
+  BYTE rgbGreen;
+  BYTE rgbRed;
+  BYTE rgbReserved;
+} RGBQUAD;
